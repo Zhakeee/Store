@@ -4,6 +4,19 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .footer{
-    position: fixed;
+
     bottom: 0;
+}
+app-root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+app-footer{
+    margin-top:auto;
+}
+
+*{
+    font-family:'Segoe UI';
 }

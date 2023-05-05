@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-base',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./base.component.scss']
 })
 export class BaseComponent {
-
+  
 }

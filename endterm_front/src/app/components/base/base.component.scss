@@ -1,0 +1,55 @@
+.privet{
+    text-align: center;
+    margin-top:30px;
+    font-family:'Segoe UI';
+    
+}
+
+.welcome{
+font-family:'Segoe UI';
+letter-spacing: 5.6pt;
+word-spacing: 6.6pt;
+line-height: 1.9;
+}
+.container{
+    margin: 0 auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+}
+.image{
+    max-width: 300px;
+    height: 40vh;
+    padding:0px 20px 0px 20px;
+}
+.top{
+    text-align: center;
+    font-family:'Segoe UI';
+    
+}
+*, *:after {box-sizing: border-box;}
+.shadow-border {
+  width: 400px;
+  margin: 50px auto 0;
+  position: relative;
+}
+ .shadow-border:after {
+  content:"";
+  width: 100%;
+  height: calc(100% - 20px);
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  z-index: 1;
+  border: 5px solid #FF9B6C;
+}
+.shadow-border img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  z-index: 2;
+  box-shadow: 4px 4px 20px 0 rgba(0,0,0,.25)
+}

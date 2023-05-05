@@ -8,12 +8,13 @@ import { IProducts } from './../models/products';
 })
 export class ProductsService {
 
-  url: string = 'http://localhost:3000/products';
-  urlBasket: string = 'http://localhost:3000/basket';
+  url: string = 'http://localhost:8000/api/products';
+  urlBasket: string = 'http://localhost:8000/api/trash';
 
   constructor(private http: HttpClient) { }
 
   getProducts() {
+    console.log(this.http.get<IProducts[]>(this.url));
     return this.http.get<IProducts[]>(this.url);
   }
 

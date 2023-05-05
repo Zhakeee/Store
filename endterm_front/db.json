@@ -14,19 +14,6 @@
       }
     },
     {
-      "id": 2,
-      "title": "MacBook Pro",
-      "price": 1300,
-      "year": 2021,
-      "image": "assets/images/macBook.jpg",
-      "configure": {
-        "chip": "M1",
-        "SSD": "256 GB",
-        "memory": "16 GB",
-        "display": "Retina"
-      }
-    },
-    {
       "id": 3,
       "title": "MacBook Pro(Intel)",
       "price": "1050",
@@ -51,7 +38,35 @@
         "memory": "600",
         "display": "12"
       }
+    },
+    {
+      "id": 6,
+      "title": "fsdfsd",
+      "price": "fsdfsdf",
+      "year": "sdfdsfdsf",
+      "image": "assets/images/macBook.jpg",
+      "configure": {
+        "chip": "fdsfsd",
+        "ssd": "dsfsd",
+        "memory": "fsdfsd",
+        "display": "sdfsdf"
+      }
     }
   ],
-  "basket": []
+  "basket": [
+    {
+      "id": 3,
+      "title": "MacBook Pro(Intel)",
+      "price": "1050",
+      "year": 2022,
+      "image": "assets/images/macBook.jpg",
+      "configure": {
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
+      },
+      "quantity": 1
+    }
+  ]
 }
